@@ -1,0 +1,6 @@
+<h1>Person Details:</h1>
+<div class="person name">{{ person.name }}</div>
+<div>{{ person.isStudent }}</div>
+<button (click)="getStudentStatus(person)">Active student status</button>
+<br>
+<app-child-personal-data [address]="person.address"></app-child-personal-data>
