@@ -30,9 +30,9 @@ export class PersondataComponent implements OnInit {
   getStudentStatus(person: IData) {
     if (person.isStudent == false) {
       person.isStudent = true
-      console.log('studentia shechemaa');
+      console.log('studentia ');
     } else {
-      console.log('ukve studentia bliad');
+      console.log('ukve studentia ');
     }
   }
 }
